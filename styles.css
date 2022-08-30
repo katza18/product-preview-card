@@ -1,5 +1,29 @@
 body {
     background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    flex-direction: column;
+}
+
+body, html {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+main {
+    background-color: white;
+    height: 450px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.description {
+    padding:2rem;
 }
 
 .text, .category{
@@ -8,11 +32,22 @@ body {
     color: hsl(228, 12%, 48%);
 }
 
-h1 {
-    font-family: 'Fraunces', serif;
-    font-weight: 700;
-}
-
 .category {
     letter-spacing: .2rem;
+}
+
+.product {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+button {
+    border-radius: 6px;
+    background-color: hsl(212, 21%, 14%);
+    color: white !important;
+    border: none;
+    padding: 15px 32px;
+    margin-top: 1em;
+    width: 16em;
 }
